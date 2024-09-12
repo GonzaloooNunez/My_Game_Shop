@@ -1,0 +1,187 @@
+.homepage-container {
+  padding: 40px;
+  position: relative;
+}
+
+.homepage-header {
+  position: relative;
+}
+
+.zelda-image {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 180px;
+  height: 190px;
+  z-index: 1;
+  margin-left: 30px;
+}
+
+.homepage-titulo {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(45deg, #ffffff, #f70358);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.title-image-2 {
+  width: 500px;
+  height: auto;
+  margin-right: 28px;
+}
+
+.title-image {
+  width: 70px;
+  height: auto;
+  margin-right: 28px;
+  transform: rotate(-30deg);
+}
+
+.designer-offer-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.designer-offer-container p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+  width: 240px;
+}
+
+.designer-image {
+  margin-top: 15px;
+  width: 100px;
+  height: auto;
+}
+
+.category-filter {
+  margin-right: 240px;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  position: absolute;
+  top: 107px;
+  right: 20px;
+  background-color: #9cb8d4;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 16px 17px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.filter-container label {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #343a40;
+}
+
+#category-select {
+  padding: 1px 12px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #495057;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+#category-select:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.game-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-details {
+  padding: 10px;
+}
+
+.game-details h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.game-details p {
+  margin: 5px 0;
+}
+
+.game-details .categoria {
+  margin-bottom: 10px;
+}
+
+.game-details .precio {
+  margin-top: 10px;
+}
+
+.filter-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0px;
+}
+
+.filter-container {
+  margin-bottom: 10px;
+}
+
+.search-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #495057;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
