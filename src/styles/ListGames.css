@@ -10,8 +10,8 @@
 .zelda-image {
   top: -20px;
   left: -20px;
-  width: 180px;
-  height: 190px;
+  width: 130px;
+  height: 150px;
   z-index: 1;
   margin-left: 30px;
 }
@@ -22,7 +22,7 @@
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
-  margin-top: 0px;
+  margin-top: -90px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   background: linear-gradient(45deg, #ffffff, #f70358);
   -webkit-background-clip: text;
