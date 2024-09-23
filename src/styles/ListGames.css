@@ -8,7 +8,6 @@
 }
 
 .zelda-image {
-  position: absolute;
   top: -20px;
   left: -20px;
   width: 180px;
@@ -69,6 +68,7 @@
 .category-filter {
   margin-right: 240px;
   margin-bottom: 20px;
+  min-width: 329px; /* Añade esta línea */
 }
 
 .filter-container {
@@ -184,4 +184,72 @@
   outline: none;
   border-color: #80bdff;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+@media (max-width: 970px) {
+  .homepage-container {
+    padding: 20px;
+  }
+
+  .zelda-image {
+    display: none;
+  }
+
+  .homepage-titulo {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .title-image-2 {
+    width: 100%;
+    height: auto;
+    margin-right: 70;
+  }
+
+  .title-image {
+    width: 10%;
+    height: auto;
+    margin-right: 70;
+  }
+
+  .designer-offer-container {
+    position: static;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .designer-offer-container p {
+    width: 100%;
+  }
+
+  .category-filter {
+    margin-right: 0;
+  }
+
+  .filter-container {
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+
+  .search-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 672px) {
+  .category-filter {
+    right: 0;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 361px) {
+  .category-filter {
+    min-width: 30px;
+    right: 0;
+    margin-right: 0;
+    margin-left: auto;
+  }
 }
